@@ -1,7 +1,7 @@
 *{margin: 0;padding: 0;box-sizing: border-box; font-family: lato;}
 
 body{
-    background-image: url("/imagenes/fondo.jpg");
+    background-color: #d5a8c5;
     background-repeat: no-repeat;
     background-size: 100%;
     margin-bottom: auto;
@@ -54,7 +54,7 @@ margin-left: 50px;
   }
   .ov-btn-slide-top::after {
 
-    background: #fc03a1; /* color de fondo hover */
+    background: black; /* color de fondo hover */
     position: absolute;
     z-index: -1;
     padding: 16px 20px;
