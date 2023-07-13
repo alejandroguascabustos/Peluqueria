@@ -1,0 +1,132 @@
+*{margin: 0;padding: 0;box-sizing: border-box; font-family: lato;}
+
+body{
+    background-image: url("/imagenes/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: auto;
+}
+header{
+display: flex;
+justify-content: start;
+padding-left: 15px;
+padding-right: 15px;
+margin-top: 15px;
+margin-left: 50px;
+}
+
+.enlaces{
+    text-decoration: none;
+    color: black;
+    margin-right: 35px;
+    font-weight: bolder;
+    font-size: 23px;
+}
+.enlaces:hover{
+    color: #fc03a1;
+    box-shadow: #fc03a1;
+}
+
+/* Cuerpo index */
+.citas{
+    margin-top: 17%;
+    margin-bottom: 0%;
+   
+}
+
+.ov-btn-slide-top {
+    background: transparent; /* color de fondo */
+    color: #fc03a1; /* color de fuente */
+    border: 2px solid #fc03a1; /* tamaño y color de borde */
+    padding: 16px px;
+    border-radius: 80px; /* redondear bordes */
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+    margin-left: 65px;
+    text-decoration: none;
+    font-family: pacifico;
+    font-size: 52px;
+  }
+  .ov-btn-slide-top:hover {
+    color: #fff; /* color de fuente hover */
+  }
+  .ov-btn-slide-top::after {
+
+    background: #fc03a1; /* color de fondo hover */
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    left: 0;
+    right: 0;
+    top: -100%;
+    bottom: 100%;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+  }
+  .ov-btn-slide-top:hover::after {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+  }
+
+
+.recomendaciones{
+    margin-left: 67px;
+    margin-right: 420px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.cajalogos{
+    margin-left: 65px;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.marcass{
+   width: 11%;
+   object-fit: cover;
+   padding-bottom: 12%;
+}
+
+
+footer{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 0px 50px 5px 50px;
+    font-size: 15px;
+   
+    background-color: #fc03a1;
+}
+
+.follows{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+.network{
+    text-align: center;
+    font-size: 15px;
+}
+
+
+.socialmedia{
+    padding: 20px 20px 20px 20px;
+    box-shadow: var(--blanco-color);
+}
+
+.credits{
+    padding: 5px;
+    color: var(--morado-color);
+    text-decoration: none;
+}
