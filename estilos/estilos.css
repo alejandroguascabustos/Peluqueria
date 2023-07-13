@@ -1,7 +1,7 @@
 *{margin: 0;padding: 0;box-sizing: border-box; font-family: lato;}
 
 body{
-    background-image: url("/imagenes/fondo.jpg");
+   background-color: pink;
     background-repeat: no-repeat;
     background-size: 100%;
     margin-bottom: auto;
