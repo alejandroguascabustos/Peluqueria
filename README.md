@@ -1,6 +1,6 @@
 # Peluqueria
 Proyecto landing page para aplicar css 
-
+Url: https://alejandroguascabustos.github.io/Peluqueria/
 
 
 
